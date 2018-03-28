@@ -1,0 +1,60 @@
+{
+  "name": "vue-panels",
+  "description": "Component panel vuejs",
+  "version": "0.0.1",
+  "main": "dist/vue-panels.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "npm run build && webpack-dev-server -p --progress --config ./webpack.config.js",
+    "build": "rimraf ./dist && webpack -p --progress --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseomar10/vue-panels.git"
+  },
+  "keywords": [
+    "vue",
+    "panels",
+    "component"
+  ],
+  "author": "jose.omar94@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joseomar10/vue-panels/issues"
+  },
+  "homepage": "https://github.com/joseomar10/vue-panels#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "node-sass": "^4.7.2",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "vue": "^2.5.16",
+    "vue-clock-simple": "^1.0.4",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-merge": "^4.1.2"
+  }
+}
